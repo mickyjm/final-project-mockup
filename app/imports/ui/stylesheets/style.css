@@ -1,11 +1,22 @@
 body {
-  padding-top: 61px;  /* Move body of page below navbar. */
+  padding-top: 71px;  /* Move body of page below navbar. */
 }
 
 .ui.top.fixed.borderless.inverted.menu {
   background-color: #014C37;
 }
 
+.ui.launch.right.button {
+  background-color: #014C37;
+}
+
 #login-buttons a, .accounts-dialog a {
   color: rgba(255, 255, 255, 0.901961);
+}
+
+.logo {
+  width: 45px;
+  height: 42px;
+  margin-left:auto;
+  margin-right: auto;
 }
