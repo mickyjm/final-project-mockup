@@ -1,9 +1,28 @@
 body {
   padding-top: 71px;  /* Move body of page below navbar. */
+  background-image: url(https://blog.tradeshift.com/wp-content/uploads/2015/10/collaboration-illustration.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 70px;
+}
+
+footer {
+  background-color: #014C37;
+  height: 70px;
+  color: rgba(255, 255, 255, 0.901961);
+  position: relative;
 }
 
 h4 {
   text-align: center;
+}
+
+.form-background {
+  padding: 15px;
+  height: 675px;
+  background-color: #FFFFFF;
+  opacity: 0.95;
+  border-width: 5px;
+  border-color: #000000;
 }
 
 .ui.top.fixed.borderless.inverted.menu {

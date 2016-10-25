@@ -1,6 +1,7 @@
 <template name="Sign_Up_Page">
 
   <div class="ui container" style="margin-top: 20px;">
+    <div class="form-background">
     <form class="ui form contact-data-form">
       <h4 class="ui dividing header">Sign Up</h4>
 
@@ -56,6 +57,14 @@
 
       <center><button class="ui button" type="submit">Sign Up</button></center>
     </form>
+
+      <hr />
+
+    <div class="text" style="padding-top: 15px;">
+      <center>Already have an account? <a class="{{ isActiveRoute 'Log_In_Page'}} item" href="{{ pathFor 'Log_In_Page' }}">Login here.</a></center>
+    </div>
+
+    </div>
   </div>
 
 </template>
