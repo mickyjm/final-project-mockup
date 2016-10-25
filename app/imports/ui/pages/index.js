@@ -8,3 +8,9 @@ import './home-page.html';
 
 import './list-stuff-page.html';
 import './list-stuff-page.js';
+
+import './sign-up-page.html';
+import './sign-up-page.js';
+
+import './log-in-page.html';
+import './log-in-page.js';

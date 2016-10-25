@@ -2,6 +2,10 @@ body {
   padding-top: 71px;  /* Move body of page below navbar. */
 }
 
+h4 {
+  text-align: center;
+}
+
 .ui.top.fixed.borderless.inverted.menu {
   background-color: #014C37;
 }
