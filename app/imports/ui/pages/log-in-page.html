@@ -1,29 +1,69 @@
 <template name="Log_In_Page">
 
-  <div class="ui container" style="margin-top: 20px;">
-    <div class="form-background">
-    <form class="ui form contact-data-form">
-      <h4 class="ui dividing header">Log In</h4>
+  <div class="login-body"> <!--LOGIN BODY DIV-->
 
-      <div class="field">
-        <label>UHM ID or Email</label>
-        <div class="ui left icon input">
-        <i class="user icon"></i>
-        <input type="text" name="login" placeholder="UHM ID or Email..." id="login">
-        </div>
-      </div>
+    <div class="ui centered three row grid" style="padding-top: 191px;"> <!--UI THREE ROW GRID DIV-->
 
-      <div class="field">
-        <label>Password</label>
-        <div class="ui left icon input">
-          <i class="lock icon"></i>
-        <input type="text" name="password" placeholder="Password..." id="password">
-        </div>
-      </div>
+      <div class="row"> <!--FIRST ROW DIV-->
 
-      <center><button class="ui button" type="submit">Log In</button></center>
-    </form>
-    </div>
-  </div>
+        <h1 style="color: white;">ALLOY LOGO HERE</h1>
+
+      </div> <!--FIRST ROW /DIV-->
+
+      <div class="row"> <!--SECOND ROW DIV-->
+
+        <h2 style="color: white;">INSERT SLOGAN HERE</h2>
+
+      </div> <!-- SECOND ROW /DIV-->
+
+      <div class="form-background"> <!--FORM BACKGROUND DIV-->
+
+        <div class="row"> <!--SECOND ROW DIV-->
+
+          <form class="ui form user-data-form"> <!--UI FORM-->
+
+            <div class="field"> <!--USERNAME FIELD DIV-->
+
+              <label>UHM Username</label> <!--USERNAME LABEL-->
+
+              <div class="ui left icon input"> <!--USER INPUT ICON DIV-->
+
+                <i class="green user icon"></i>
+
+                <input type="text" name="login" placeholder="UHM Username..." id="login">
+
+              </div> <!--USER INPUT ICON /DIV-->
+
+            </div> <!--USERNAME FIELD /DIV-->
+
+            <div class="field"> <!--PASSWORD FIELD DIV-->
+
+              <label>Password</label> <!--PASSWORD LABEL-->
+
+              <div class="ui left icon input"> <!--LOCK INPUT ICON DIV-->
+
+                <i class="green lock icon"></i>
+
+                <input type="text" name="password" placeholder="Password..." id="password">
+
+              </div> <!--LOCK INPUT ICON /DIV-->
+
+            </div> <!--PASSWORD FIELD /DIV-->
+
+            <center>
+              <button class="ui green button" type="submit"> <!--SUBMIT BUTTON-->
+                Log In
+              </button>
+            </center> <!--SUBMIT /BUTTON-->
+
+          </form> <!--UI /FORM-->
+
+        </div> <!--SECOND ROW /DIV-->
+
+      </div> <!--UI FORM BACKGROUND /DIV-->
+
+    </div> <!--UI THREE ROW GRID /DIV-->
+
+  </div> <!--LOGin BODY /DIV-->
 
 </template>

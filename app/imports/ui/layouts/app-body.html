@@ -1,79 +1,79 @@
 <template name="App_Body">
 
-  <div id="app">
+  <div id="app"> <!--APP DIV-->
 
-    <div class="ui left vertical inverted labeled icon sidebar menu">
+    <div class="ui left vertical inverted labeled icon sidebar menu"> <!--UI SIDEBAR DIV-->
 
       <a class="item"> <!--FIRST ITEM-->
         <i class="home icon"></i>
         Home
-      </a> <!--FIRST ITEM-->
+      </a> <!--FIRST /ITEM-->
 
       <a class="item"> <!--SECOND ITEM-->
         <i class="block layout icon"></i>
         Topics
-      </a> <!--SECOND ITEM-->
+      </a> <!--SECOND /ITEM-->
 
       <a class="item"> <!--THIRD ITEM-->
         <i class="smile icon"></i>
         Friends
-      </a> <!--THIRD ITEM-->
+      </a> <!--THIRD /ITEM-->
 
       <a class="item"> <!--FOURTH ITEM-->
         <i class="calendar icon"></i>
         History
-      </a> <!--FOURTH ITEM-->
+      </a> <!--FOURTH /ITEM-->
 
       <a class="item"> <!--FIFTH ITEM-->
         <i class="mail icon"></i>
         Messages
-      </a> <!--FIFTH ITEM-->
+      </a> <!--FIFTH /ITEM-->
 
       <a class="item"> <!--SIXTH ITEM-->
         <i class="chat icon"></i>
         Discussions
-      </a> <!--SIXTH ITEM-->
+      </a> <!--SIXTH /ITEM-->
 
       <a class="item"> <!--SEVENTH ITEM-->
         <i class="trophy icon"></i>
         Achievements
-      </a> <!--SEVENTH ITEM-->
+      </a> <!--SEVENTH /ITEM-->
 
       <a class="item"> <!--NINTH ITEM-->
         <i class="shop icon"></i>
         Store
-      </a> <!--NINTH ITEM-->
+      </a> <!--NINTH /ITEM-->
 
       <a class="item"> <!--NINTH ITEM-->
         <i class="settings icon"></i>
         Settings
-      </a> <!--NINTH ITEM-->
+      </a> <!--NINTH /ITEM-->
 
     </div> <!--UI SIDEBAR DIV-->
 
-    <div class="pusher">
+    <div class="pusher"> <!--PUSHER DIV-->
 
-      <div class="ui top fixed borderless inverted menu">
+      <div class="ui top fixed borderless inverted menu"> <!--UI TOP FIXED MENU DIV-->
 
-        <div class="ui container">
+        <div class="ui container"> <!--UI CONTAINER DIV-->
 
-          <button class="ui tiny right button">
+          <button class="ui tiny right button"> <!--UI BUTTON-->
             <center><i class="large inverted list icon"></i></center>
-          </button> <!--UI LAUNCH BUTTON DIV-->
+          </button> <!--UI /BUTTON-->
 
           {{> Header}}
 
-        </div> <!--UI CONTAINER DIV-->
+        </div> <!--UI CONTAINER /DIV-->
 
-      </div> <!--UI TOP FIXED MENU DIV-->
+      </div> <!--UI TOP FIXED MENU /DIV-->
 
       {{>Template.dynamic template=main}}
 
-    </div> <!--PUSHER DIV-->
+    </div> <!--PUSHER /DIV-->
 
     {{> Footer}}
 
-  </div> <!--APP DIV-->
+  </div> <!--APP /DIV-->
 
   <script>
     /*$(".ui.sidebar").sidebar()
@@ -82,7 +82,6 @@
     $('#app .ui.sidebar')
         .sidebar({ context: $('#app') })
         .sidebar('setting', 'transition', 'overlay')
-        .sidebar('toggle')
         .sidebar('attach events', '.ui.button');
 
   </script>
