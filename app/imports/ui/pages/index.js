@@ -14,3 +14,6 @@ import './sign-up-page.js';
 
 import './log-in-page.html';
 import './log-in-page.js';
+
+import './landing-page.html';
+import './landing-page.js';

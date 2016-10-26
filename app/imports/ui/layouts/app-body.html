@@ -1,5 +1,90 @@
 <template name="App_Body">
-  {{> Header}}
-  {{>Template.dynamic template=main}}
-  {{> Footer}}
+
+  <div id="app">
+
+    <div class="ui left vertical inverted labeled icon sidebar menu">
+
+      <a class="item"> <!--FIRST ITEM-->
+        <i class="home icon"></i>
+        Home
+      </a> <!--FIRST ITEM-->
+
+      <a class="item"> <!--SECOND ITEM-->
+        <i class="block layout icon"></i>
+        Topics
+      </a> <!--SECOND ITEM-->
+
+      <a class="item"> <!--THIRD ITEM-->
+        <i class="smile icon"></i>
+        Friends
+      </a> <!--THIRD ITEM-->
+
+      <a class="item"> <!--FOURTH ITEM-->
+        <i class="calendar icon"></i>
+        History
+      </a> <!--FOURTH ITEM-->
+
+      <a class="item"> <!--FIFTH ITEM-->
+        <i class="mail icon"></i>
+        Messages
+      </a> <!--FIFTH ITEM-->
+
+      <a class="item"> <!--SIXTH ITEM-->
+        <i class="chat icon"></i>
+        Discussions
+      </a> <!--SIXTH ITEM-->
+
+      <a class="item"> <!--SEVENTH ITEM-->
+        <i class="trophy icon"></i>
+        Achievements
+      </a> <!--SEVENTH ITEM-->
+
+      <a class="item"> <!--NINTH ITEM-->
+        <i class="shop icon"></i>
+        Store
+      </a> <!--NINTH ITEM-->
+
+      <a class="item"> <!--NINTH ITEM-->
+        <i class="settings icon"></i>
+        Settings
+      </a> <!--NINTH ITEM-->
+
+    </div> <!--UI SIDEBAR DIV-->
+
+    <div class="pusher">
+
+      <div class="ui top fixed borderless inverted menu">
+
+        <div class="ui container">
+
+          <button class="ui tiny right button">
+            <center><i class="large inverted list icon"></i></center>
+          </button> <!--UI LAUNCH BUTTON DIV-->
+
+          {{> Header}}
+
+        </div> <!--UI CONTAINER DIV-->
+
+      </div> <!--UI TOP FIXED MENU DIV-->
+
+      {{>Template.dynamic template=main}}
+
+    </div> <!--PUSHER DIV-->
+
+    {{> Footer}}
+
+  </div> <!--APP DIV-->
+
+  <script>
+    /*$(".ui.sidebar").sidebar()
+     .sidebar('setting', 'transition', 'overlay')
+     ;*/
+    $('#app .ui.sidebar')
+        .sidebar({ context: $('#app') })
+        .sidebar('setting', 'transition', 'overlay')
+        .sidebar('toggle')
+        .sidebar('attach events', '.ui.button');
+
+  </script>
+
 </template>
