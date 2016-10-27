@@ -1,7 +1,6 @@
 # final-project-mockup
 E49: Mockup development with Meteor
 
-<<<<<<< HEAD
 Show off Navigation 
 <img class=ui image" src="../doc/Screenshot003.png">
 
