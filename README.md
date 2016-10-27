@@ -25,7 +25,6 @@ E49: Mockup development with Meteor
 <img class=ui image" src="/doc/Screenshot-projects-sidebar.png">
 
 ## First Mockup
-
 Show off Navigation 
 <img class=ui image" src="/doc/Screenshot003.png" />
 Generic Login Layout
