@@ -1,27 +1,183 @@
-  <template name="Landing_Page">
+<template name="Landing_Page">
 
-    <div class="ui grid" style="width: 960px;">
-      <div class="four wide column">
-        <div class="ui vertical fluid tabular menu">
-          <a class="item active">
-            Bio
-          </a>
-          <a class="item">
-            Pics
-          </a>
-          <a class="item">
-            Companies
-          </a>
-          <a class="item">
-            Links
-          </a>
-        </div>
-      </div>
-      <div class="twelve wide stretched column">
-        <div class="ui segment">
-          This is an stretched grid column. This segment will always match the tab height
-        </div>
-      </div>
-    </div>
+  <div class="land-body-one"> <!--LAND BODY ONE DIV-->
+
+    <div class="ui three row centered grid container" style="padding-top: 317px;"> <!--UI THREE ROW GRID DIV-->
+
+      <div class="row"> <!--FIRST ROW-->
+
+        <img src="/images/alloy-logo.png"/> <!--LOGO IMAGE-->
+
+      </div> <!--FIRST /ROW-->
+
+      <div class="row"> <!--SECOND ROW-->
+
+        <h2 style="color: white;">INSERT SLOGAN HERE</h2> <!--SLOGAN-->
+
+      </div> <!--SECOND /ROW-->
+
+      <div class="row"> <!--THIRD ROW-->
+
+        <center>
+          <button class="ui massive blue button" type="submit"> <!--SUBMIT BUTTON-->
+            <i class="sign in icon"></i>
+            Get Started
+          </button> <!--SUBMIT /BUTTON-->
+        </center>
+
+      </div> <!--THIRD /ROW-->
+
+    </div> <!--UI THREE ROW GRID /DIV-->
+
+  </div> <!--LAND BODY ONE /DIV-->
+
+  <div class="land-body-two"> <!--LAND BODY TWO DIV-->
+
+    <div class="ui equal width centered grid container" style="padding-top: 128px;"> <!--UI EQUAL GRID DIV-->
+
+      <div class="row"> <!--FIRST ROW-->
+
+        <h2 style="color: white; font-size: 36px;">What is Alloy?</h2>
+
+      </div> <!--FIRST /ROW-->
+
+      <div class="equal width row"> <!--SECOND ROW-->
+
+        <div class="column"></div> <!--EMPTY SECOND ROW FIRST COLUMN-->
+
+        <div class="column" id="about"> <!--SECOND ROW SECOND COLUMN-->
+
+          Alloy (the team-builder application) is a social network oriented that connects people to projects based on
+          the “skill graph,” allowing like-minded people with complementing skills to find each other and work on
+          projects together.
+
+        </div> <!--SECOND ROW SECOND /COLUMN-->
+
+        <div class="column"></div> <!--EMPTY SECOND ROW THIRD COLUMN-->
+
+      </div> <!--SECOND /ROW-->
+
+      <div class="row"> <!--THIRD ROW-->
+
+        <h3 style="color: white; font-size: 30px;">Features</h3>
+
+      </div> <!--THIRD /ROW-->
+
+      <div class="equal width row" style="padding-bottom: 0px;"> <!--FOURTH ROW-->
+
+        <div class="column"></div> <!--EMPTY FOURTH ROW FIRST COLUMN-->
+
+        <div class="column" id="even"> <!--FOURTH ROW SECOND COLUMN-->
+
+          Allows students and faculty to create profiles that list their skills, their interests, and their
+          availability/willingness to collaborate.
+
+        </div> <!--FOURTH ROW SECOND /COLUMN-->
+
+        <div class="column" id="odd"> <!--FOURTH ROW THIRD COLUMN-->
+
+          Users can also create project proposals with slots for the various skillsets they think the project needs.
+
+        </div> <!--FOURTH ROW THIRD COLUMN-->
+
+        <div class="column"></div> <!--EMPTY FOURTH ROW FOURTH COLUMN-->
+
+      </div> <!--FOURTH /ROW-->
+
+      <div class="equal width row" style="padding-top: 0px; padding-bottom: 0px;">  <!--FIFTH ROW-->
+
+        <div class="column"></div>  <!--EMPTY FIFTH ROW FIRST COLUMN-->
+
+        <div class="column" id="odd">  <!--FIFTH ROW SECOND COLUMN-->
+
+          Users can search for other users or proposals by skill, interest, and availability.
+
+        </div> <!--FIFTH ROW SECOND /COLUMN-->
+
+        <div class="column" id="even">  <!--FIFTH ROW THIRD COLUMN-->
+
+          Users can set up automatic alerts for projects that fall under their interests, or new users in their area
+          with skills they need.
+
+        </div> <!--FIFTH ROW SECOND /COLUMN-->
+
+        <div class="column"></div>  <!--EMPTY FIFTH ROW FOURTH COLUMN-->
+
+      </div>  <!--FIFTH /ROW-->
+
+      <div class="equal width row" style="padding-top: 0px;">  <!--SIXTH ROW-->
+
+        <div class="column"></div> <!--EMPTY SIXTH ROW FIRST COLUMN-->
+
+        <div class="column" id="even"> <!--SIXTH ROW SECOND COLUMN-->
+
+          Users can asymmetrically follow other users to keep track of their project proposals.
+
+        </div> <!--SIXTH ROW SECOND /COLUMN-->
+
+        <div class="column" id="odd"> <!--SIXTH ROW THIRD COLUMN-->
+
+          Faculty, students, and admins must log in with UHMid.
+
+        </div><!--SIXTH ROW THIRD /COLUMN-->
+
+        <div class="column"></div> <!--EMPTY SIXTH ROW FOURTH COLUMN-->
+
+      </div> <!--SIXTH /ROW-->
+
+    </div> <!--UI EQUAL GRID /DIV-->
+
+  </div> <!--LAND BODY TWO /DIV-->
+
+  <div class="land-body-three"> <!--LAND BODY THREE DIV-->
+
+    <div class="ui centered grid container" style="padding-top: 167px;"> <!--UI CENTERED GRID DIV-->
+
+      <div class="row"> <!--FIRST ROW-->
+
+        <img class="ui circular centered image" id="founder" src="/images/founder.jpg"/> <!--FOUNDER IMAGE-->
+
+      </div> <!--FIRST /ROW-->
+
+      <div class="row" id="body-three-row"> <!--SECOND ROW-->
+
+        <p style="font-size: 18px;">"Clay Shirky wrote the book <em>Cognitive
+          Surplus</em> in 2010, where
+          he tried to explain the
+          phenomenon of massive user participation and effort into creating content for sites like IcanHazCheezburger.
+          In essence, people in modern society have a lot of spare time and easy access to the tools to create things.
+          Even as adults, many in creative/technical communities seek out opportunities like hackathons and other kinds
+          of jams in order to test crazy ideas that a client would never pay for without proof of concept. My personal
+          experience is that there is a lot of pent up energy that gets released when the right connection is made with
+          the right people and the right idea."</p>
+
+          <center><p style="font-size: 24px;">Ed White</p>
+
+            <p style="font-size: 20px;">Founder of Alloy</p></center>
+
+      </div> <!--SECOND /ROW-->
+
+      <div class="row"> <!--THIRD ROW-->
+
+        <center>
+          <button class="ui massive blue button" type="submit"> <!--SUBMIT BUTTON-->
+            <i class="sign in icon"></i>
+            Get Started Now
+          </button> <!--SUBMIT /BUTTON-->
+        </center>
+
+      </div> <!--THIRD /ROW-->
+
+      <div class="row" style="color: white; padding-top: 0px;"> <!--FOURTH ROW-->
+
+        <center>*UHMid required.</center>
+
+      </div> <!--FOURTH /ROW-->
+
+    </div> <!--UI CENTERED GRID /DIV-->
+
+  </div> <!--LAND BODY THREE /DIV-->
+
+  {{> Footer}}
 
 </template>
