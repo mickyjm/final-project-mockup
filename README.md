@@ -1,6 +1,12 @@
 # final-project-mockup
 E49: Mockup development with Meteor
 
+## Final Mockup
+
+<h1><Landing Page</h1> *Single Page just badly edited*
+<img class=ui image" src="/doc/Screenshot-landing.png">
+
+
 First Mockup
 
 Show off Navigation 
