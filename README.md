@@ -5,9 +5,10 @@ E49: Mockup development with Meteor
 
 <h1>Landing Page</h1> *Single Page just badly edited*
 <img class=ui image" src="/doc/Screenshot-landing.png">
+<h1>Login Page</h1>
+<img class=ui image" src="/doc/Screenshot-landing.png">
 
-
-First Mockup
+## First Mockup
 
 Show off Navigation 
 <img class=ui image" src="/doc/Screenshot003.png">
