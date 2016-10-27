@@ -11,6 +11,18 @@ E49: Mockup development with Meteor
 <img class=ui image" src="/doc/Screenshot-user.png" />
 *User Page with Sidebar*
 <img class=ui image" src="/doc/Screenshot-user-sidebar.png">
+<h1>Working User Page</h1>
+<img class=ui image" src="/doc/Screenshot-user-example.png" />
+*Working User Page with Sidebar*
+<img class=ui image" src="/doc/Screenshot-user-sidebar-example.png">
+<h1>Invitations & Messages Page</h1>
+<img class=ui image" src="/doc/Screenshot-invites.png" />
+*Invitations & Messages Page with Sidebar*
+<img class=ui image" src="/doc/Screenshot-invites-sidebar.png">
+<h1>List of Projects Page</h1>
+<img class=ui image" src="/doc/Screenshot-projects.png" />
+*List of Projects Page with Sidebar*
+<img class=ui image" src="/doc/Screenshot-projects-sidebar.png">
 
 ## First Mockup
 
