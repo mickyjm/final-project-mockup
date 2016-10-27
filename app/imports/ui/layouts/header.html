@@ -1,66 +1,33 @@
 <template name="Header">
-  <div class="ui top fixed borderless inverted menu">
 
-    <div class="ui container">
+  <a class="item" href="{{pathFor 'Home_Page'}}"><h1>ALLOY</h1></a> <!--LOGO GOES HERE-->
 
-      <!--<div class="ui left vertical inverted labeled icon sidebar menu">
-        <a class="item">
-          <i class="home icon"></i>
-          Home
-        </a>
-        <a class="item">
-          <i class="block layout icon"></i>
-          Topics
-        </a>
-        <a class="item">
-          <i class="smile icon"></i>
-          Friends
-        </a>
-      </div>
+  <a class="item"><h3>Hello, {{#if currentUser}}Name{{/if}}</h3></a> <!--DISPLAYS USER'S NAME-->
 
-      <div class="ui launch right button">
-        <img src="/images/munch-icon.jpg" class="logo"/>
-        <span class="text" style="display:none;">Menu</span>
-      </div>-->
+      <!--{{#if currentUser}}
 
-      <div class="ui dropdown item">
-        <div class="image">
-          <img src="/images/munch-icon.jpg" class="logo"/>
-        </div>
-        <div class="menu">
-          <div class="image"><img class="ui tiny centered circular image" src="/images/circle-user.jpg" /></div>
-          <a class="item"><i class="user icon"></i>My Account</a>
-          <div class="divider"></div>
-          <a class="item"><i class="wait icon"></i>Recent Listings</a>
-          <a class="item"><i class="newspaper icon"></i>All Listings</a>
-          <div class="divider"></div>
-          <a class="item"><i class="options icon"></i>Settings</a>
-          <a class="item"><i class="help icon"></i>Help & Feedback </a>
-        </div>
-      </div>
+        <a class="{{ isActiveRoute 'Add_Stuff_Page'}} item" href="{{ pathFor 'Add_Stuff_Page' }}">Add Stuff </a>
 
-      <a class="item" href="{{pathFor 'Home_Page'}}"><h1>Mockup</h1></a>
-      {{#if currentUser}}
-      <a class="{{ isActiveRoute 'Add_Stuff_Page'}} item" href="{{ pathFor 'Add_Stuff_Page' }}">Add Stuff </a>
-      <a class="{{ isActiveRoute 'List_Stuff_Page'}} item" href="{{ pathFor 'List_Stuff_Page' }}">List Stuff</a>
-      {{/if}}
-      <a href="#" class="item">{{> loginButtons }} </a>
-      <div class="right item">
-        <div class="ui category search">
-          <div class="ui icon input">
-            <input class="prompt" type="text" placeholder="Search Listings...">
-            <i class="search icon"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        <a class="{{ isActiveRoute 'List_Stuff_Page'}} item" href="{{ pathFor 'List_Stuff_Page' }}">List Stuff</a>
 
-  <!--<script>
-    $(".ui.sidebar").sidebar({context: '.header'})
-      .sidebar('setting', 'transition', 'overlay')
-      .sidebar('attach events','.ui.launch.button')
-    ;
-  </script>-->
+      {{/if}}-->
+
+      <!--<a href="#" class="item">{{> loginButtons }} </a>--> <!--SIDE BAR HANDLES THIS & NO NEED FOR LOG IN BUTTON ON TOP-->
+
+  <div class="right item"> <!--FRIST RIGHT ITEM DIV-->
+
+    <div class="ui category search"> <!--SEARCH BAR DIV-->
+
+      <div class="ui icon input"> <!--UI ICON INPUT DIV-->
+
+        <input class="prompt" type="text" placeholder="Search Projects...">
+
+        <i class="search icon"></i>
+
+      </div> <!--UI ICON INPUT /DIV-->
+
+    </div> <!--SEARCH BAR /DIV-->
+
+  </div> <!--FIRST RIGHT ITEM /DIV-->
 
 </template>
