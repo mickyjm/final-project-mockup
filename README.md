@@ -3,7 +3,7 @@ E49: Mockup development with Meteor
 
 ## Final Mockup
 
-<h1><Landing Page</h1> *Single Page just badly edited*
+<h1>Landing Page</h1> *Single Page just badly edited*
 <img class=ui image" src="/doc/Screenshot-landing.png">
 
 
