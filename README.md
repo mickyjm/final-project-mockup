@@ -1,6 +1,14 @@
 # final-project-mockup
 E49: Mockup development with Meteor
 
+*Working Links*
+Landing Page Buttons go to Log In Page
+Log In Page goes to User Profile Page
+(Sidebar) My Account goes to User Profile Page
+(Sidebar) All Projects go to Projects Page
+(Sidebar) Invites go to Invites Page
+(Sidebar) Log Out goes back to Landing Page
+
 ## Final Mockup
 
 <h1>Landing Page</h1> *Single Page just badly edited*
@@ -24,10 +32,10 @@ E49: Mockup development with Meteor
 *List of Projects Page with Sidebar*
 <img class=ui image" src="/doc/Screenshot-projects-sidebar.png">
 
-<!--## First Mockup
+## First Mockup
 Show off Navigation 
 <img class=ui image" src="/doc/Screenshot003.png" />
 Generic Login Layout
 <img class=ui image" src="/doc/Screenshot001.png" />
 Generic Signup layout
-<img class=ui image" src="/doc/Screenshot002.png" />-->
+<img class=ui image" src="/doc/Screenshot002.png" />
