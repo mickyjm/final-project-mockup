@@ -3,8 +3,9 @@ body {
 }
 
 footer {
-  background-color: #014C37;
-  height: 63px;
+  /*background-color: #014C37; */
+  background-color: #16ab39;
+  height: 110px;
   color: rgba(255, 255, 255, 0.901961);
   position: relative;
 }
@@ -13,16 +14,19 @@ h4 {
   text-align: center;
 }
 .ui.top.fixed.borderless.inverted.menu {
-  background-color: #014C37;
+  /*background-color: #014C37; */
+  background-color: #16ab39;
 }
 
 .ui.right.button {
-  background-color: #014C37;
+  /*background-color: #014C37; */
+  background-color: #16ab39;
 }
 
 .ui.left.vertical.inverted.labeled.icon.sidebar.menu {
-  /*background-color: #014C37;*/
-  background-color: forestgreen;
+  /*background-color: #014C37;
+  background-color: forestgreen; */
+  background-color: cornflowerblue;
 }
 
 #login-buttons a, .accounts-dialog a {
