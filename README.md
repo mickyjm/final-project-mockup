@@ -2,11 +2,17 @@
 E49: Mockup development with Meteor
 
 *Working Links*
+
 Landing Page Buttons go to Log In Page
+
 Log In Page goes to User Profile Page
+
 (Sidebar) My Account goes to User Profile Page
+
 (Sidebar) All Projects go to Projects Page
+
 (Sidebar) Invites go to Invites Page
+
 (Sidebar) Log Out goes back to Landing Page
 
 ## Final Mockup
